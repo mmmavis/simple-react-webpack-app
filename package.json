@@ -10,6 +10,7 @@
     "eslint": "^1.10.3",
     "eslint-loader": "^1.2.0",
     "eslint-plugin-react": "^3.15.0",
+    "gulp": "^3.9.0",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "react-router": "^0.13.2",
@@ -21,7 +22,8 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build",
+    "start": "gulp watch"
   },
   "repository": {
     "type": "git",

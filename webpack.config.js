@@ -14,7 +14,8 @@ var config = {
     query: {
       presets:['react']
     }
-  }
+  },
+  plugins: []
 };
 
 module.exports = config;
